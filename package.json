@@ -1,6 +1,6 @@
 {
   "name": "week03",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node server"
@@ -17,5 +17,18 @@
     "jquery": "^3.7.0",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "Week 3 Lab",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilalHamid4/Week03.git"
+  },
+  "author": "Bilal Hamid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BilalHamid4/Week03/issues"
+  },
+  "homepage": "https://github.com/BilalHamid4/Week03#readme"
 }
