@@ -1,0 +1,78 @@
+<nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="/Assets/images/pro (7).jpeg" alt="" style="width:50px"/><a class="navbar-brand" href="/">ePortfolio</a>
+      <style>
+        img {
+          border-radius: 30%;
+        }
+        </style>
+    </head>
+    <body>
+     
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+  
+          <%if (title == "Home"){ %>
+            <li class="nav-item active">
+              <% }  else  { %>
+                
+          <li class="nav-item active">
+            <% } %> 
+  
+            <a class="nav-link active " href="/">
+              <i class="fas  fa-laptop-house"></i></i> Home </a>
+              
+          </li>
+          <% if (title == "About") { %>
+            <li class="nav-item active">
+              <% }  else  { %>
+                
+          <li class="nav-item ">
+            <% } %> 
+        
+  
+          
+            <a class="nav-link active " href="/about">
+              <i class="fa-solid fa-circle-question"></i></i> About </a>
+          </li>
+          <% if (title == "Projects") { %>
+            <li class="nav-item active">
+              <% }  else  { %>
+                
+          <li class="nav-item">
+            <% } %> 
+  
+          
+            <a class="nav-link active " href="/projects"><i class="fa-brands fa-r-project"></i>Projects </a>
+          </li>
+          <% if (title == "Services") { %>
+            <li class="nav-item active">
+              <% }  else  { %>
+                
+          <li class="nav-item">
+            <% } %> 
+  
+          
+            <a class="nav-link active" href="/services"><i class="fa-solid fa-gears"></i> Services </a>
+          </li>
+  
+          <% if (title == "Contact ") { %>
+            <li class="nav-item active">
+              <% }  else  { %>
+                
+          <li class="nav-item">
+            <% } %> 
+  
+          
+            <a class="nav-link active " href="/contact"><i class="fa-solid fa-mobile-screen"></i> Contact </a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  
+  

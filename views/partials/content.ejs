@@ -1,0 +1,223 @@
+<main class="container-md text-dark"> 
+    <div class="jumbotron"> 
+      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+  
+      <%if (title == "Home"){ %>
+        <br>
+        <div class=" bg-secondary container text-white rounded-4">
+          <ul>Mission Statement
+          <li>I am an engineer. I apply analytic thinking to problems and find a pragmatic solution that isn’t a quick fix, but a lasting value.</li>
+            <li>I am part of a team. In my software development team, I communicate clearly and proactively. I thrive for consistency and integrity of the creations of my team.</li>
+              <li>I am a software craftsman. I am proud of my work and understand it as part of the creation of the community of software craftmanship, which I support.</li>
+                <li>I am and always will be a student. I will keep the beginners mind by playing and experimenting without the fear of failure. There will always be things I have to learn and I will make mistakes, which develop me.</li>
+                  <li>I am an optimist and a realist. I always apply this mission statement in good faith and to achieve great results together with my team. In doing so, I am willing to learn and to teach. However, I acknowledge reality and respect mission statements of other people. Because I will not violate my mission statement, I will leave every situation where my core values are not shared.</li>
+        </ul>
+        </div>
+        <div class="container-md bg-burlywood  text-white ">
+          <a class="btn btn-outline-dark align-self-center" href="/about">About Me</a>
+        </div>
+        
+          <% }  else  { %>
+            
+  
+        <% } %> 
+  
+      <% if (title == "About") { %>
+        <div class="bg-secondary container text-white rounded-2">
+          <h3>ABOUT ME</h3>
+          <div class="row align-items-start">
+            <div class="col">
+              Bilal Hamid <br>
+              647-575-5975 <br>
+              bilabdellah@gmail.com<br>
+            </div>
+            <div class="col m-3">
+              <img src="/Assets/images/pro (6).jpeg" alt="Profile pic" style="width:370px"/>
+              <style>
+                img {
+                  border-radius: 30%;
+                }
+                </style>
+            </div>
+            <a class="btn btn-outline-dark align-self-center" href="/Assets/Resume.pdf">About Me</a>
+        </div>
+          <% }  else  { %>
+            
+            
+        <% } %> 
+    
+        
+      <% if (title == "Projects") { %>
+        <div class="bg-secondary container text-white rounded-4">
+          <h3>ABOUT MY PROJECTS</h3>
+          <div class="row align-items-start">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/Assets/images/pro (1).jpeg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Assets/images/pro (2).jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Assets/images/pro (3).jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Assets/images/pro (4).jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Assets/images/pro (5).jpeg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div><br>
+              <h4>Project Details</h4>
+              <div class="card mb-3 bg-secondary container">
+                <img src="/Assets/images/pro (1).jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+                <div class="card mb-3 bg-secondary container">
+                  <img src="/Assets/images/pro (2).jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                  </div>
+                </div>
+                <div class="card mb-3 bg-secondary container">
+                  <img src="/Assets/images/pro (3).jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                  </div>
+                </div>
+                <div class="card mb-3 bg-secondary container">
+                  <img src="/Assets/images/pro (4).jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Weather Information</h5>
+                    <p class="card-text">It is page that includes certain information and after a user inserts some information it displays the weather in that area</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                  </div>
+                </div>
+                <div class="card mb-3 bg-secondary container">
+                  <img src="/Assets/images/pro (5).jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Imperial BMR Calculator</h5>
+                    <p class="card-text"></p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                  </div>
+                </div>
+                                            
+                <br>
+              </div>
+              
+            </div>
+        </div>
+          <% }  else  { %>
+            
+        <% } %> 
+        
+      <% if (title == "Services") { %>
+        <div class="bg-secondary container text-white rounded-4">
+          <h3>services</h3>
+          <div class="row align-items-center">
+            <div class="col">
+              <ul>
+                <img src="/Assets/images/pro (8).jpeg" alt="Profile pic" style="width:250px"/>
+                <li>general 
+                  programming</li><nobar>
+                  <ul>
+                    <li>JAVA</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>C#</li>
+                  </ul>
+                  <img src="/Assets/images/pro (9).jpeg" alt="Profile pic" style="width:250px"/>
+                  <li>web development</li>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PHP</li>
+                    <li>JAVASCRIPT</li>
+                    <li>React</li>
+                    <li>Angular</li>
+                  </ul>
+                  <img src="/Assets/images/pro (10).jpeg" alt="Profile pic" style="width:250px"/>
+                    <li>mobile apps</li>
+                    <ul>
+                      <li>Android</li>
+                      <li>iOS</li>
+                      <li>Cross-Platform</li>
+                    </ul>
+              </ul>
+            </div>
+            </div>
+        </div>
+          <% }  else  { %>
+            
+        <% } %> 
+  
+        
+        <% if (title == "Contact") { %>
+        <div class="bg-secondary container text-white rounded-4">
+          <h3>ABOUT ME</h3>
+          <div class="row align-items-start">
+            <div class="col">
+              Bilal Hamid 	<br> 
+              647-575-5975 <br>
+              bilabdellah@gmail.com<br>
+            </div>
+            <div class="col">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contact Number</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary"><a href="/" class="text-white">Send</a></button>
+              </form>
+              
+            </div>
+          </div>
+          <br><br><br>
+          <% }  else  { %>
+            
+            
+        <% } %> 
+      
+    </div>
+  </main>
